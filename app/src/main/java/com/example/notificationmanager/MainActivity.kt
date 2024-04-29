@@ -26,8 +26,6 @@ class MainActivity : AppCompatActivity() {
         var bitmapDrawable = drawable as BitmapDrawable
         var largeIcon: Bitmap = bitmapDrawable.bitmap
 
-        //https://www.youtube.com/watch?v=Pen_en0zhIY     //to know more
-
         var notificationManager : NotificationManager = getSystemService(NOTIFICATION_SERVICE) as NotificationManager
         // NotificationManager is a class in the Android SDK that provides functionality to manage notifications shown to the user.
         // It allows you to create, update, and cancel notifications that appear in the notification drawer or as pop-up alerts.
